@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Syne:wght@400;600;700;800&display=swap');
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --bg: #f0f2ff;
+  --surface: #ffffff;
+  --surface2: #f5f6ff;
+  --border: #dde1ff;
+  --accent: #5b21b6;
+  --accent2: #7c3aed;
+  --accent3: #16a34a;
+  --text: #1e1b4b;
+  --muted: #6b7280;
+  --danger: #dc2626;
+  --warning: #d97706;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: 'Syne', sans-serif;
+  min-height: 100vh;
+}
+
+#root { min-height: 100vh; }
